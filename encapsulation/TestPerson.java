@@ -17,9 +17,11 @@ public class TestPerson {
 		p1.setDob(d1);
 		p1.setAddress("Odisha");
 		
-		System.out.println(p1.getName());
-		System.out.println(p1.getDob());
-		System.out.println(p1.getAddress());
+		System.out.println("p1 name is: " + p1.getName());
+		System.out.println("p1 Dob is: " + sdf.format(p1.getDob()));
+		System.out.println("p1 address is: " + p1.getAddress());
+		System.out.println("p1 age is: " + p1.getAge());
+		System.out.println("Avg age is: " + Person.AVG_AGE);
 		
 		System.out.println("-----------------------------------");
 		
@@ -31,10 +33,12 @@ public class TestPerson {
 		p2.setDob(d2);
 		p2.setAddress("Pune");
 		
-		System.out.println(p2.getName());
-		System.out.println(p2.getDob());
-		System.out.println(p2.getAddress());
-
+		System.out.println("p2 name is: " + p2.getName());
+		System.out.println("p2 Dob is: " + sdf.format(p2.getDob()));
+		System.out.println("p2 address is: " + p2.getAddress());
+		System.out.println("p2 age is: " + p2.getAge());
+		System.out.println("Avg age is: " + Person.AVG_AGE);
+		
 	}
 
 }
